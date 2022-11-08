@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+
+nav{
+    font-size: 1.1em;
+    font-family: Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #171e26;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    margin-left: -10px;
+}
+
+.nav_links{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+    border-right: 1px solid #bbb;
+}
+
+.nav_links li:last-child{
+    border-right: none;
+}
+
+.nav_links a{
+    color: #f2f2f2;
+}
+
+.welcome{
+    margin-top: 150px;
+    padding-left: 20%;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #007FBE;
+}
+
+.portfolio{
+    margin-bottom: 9%;
+}
+
+.section{
+    width: 750px;
+    border: 3px solid #1a2027;
+    border-radius: 25px;
+    padding: 7px 15px 15px 15px;
+    margin: 30px;
+    margin-left: 20%;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+
+.title{
+    font-size: 1.2em;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.content{
+    padding-left:7%;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+#education{
+    padding-bottom: 100px;
+}
+
+.social_links{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.icons{
+    margin: 15px;
+    color: #007FBE;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.inline{
+    display: inline;
+    margin-left: 50px;
+}
+
+img[alt~='me']{
+    /*width: 738.5px;
+    height: 554px;*/
+    width: 738.5px;
+    height: 454.5px;
+    display: inline-block;
+}
+
+img[alt~='laurelsprings']{
+    width: 114px;
+    height: 100px;
+    float: left;
+    margin-right: 50px;
+    filter: drop-shadow(5px 2px 6px #000000);
+}
