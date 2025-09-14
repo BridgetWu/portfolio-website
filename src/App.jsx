@@ -8,6 +8,7 @@ import Experience from './Experience.jsx'
 function App() {
   return (
     <>
+    <title>Bridget Wu | Portfolio</title>
     <Navbar/>
     <Home/>
     <Experience/>
