@@ -1,9 +1,9 @@
 import Card from './Card.jsx'
 import appScreenshot from './assets/appScreenshot.png'
 import portfolioScreenshot from './assets/portfolioWebsiteScreenshot2.png'
-import learntogertherScreenshot from './assets/learntogetherScreenshot.png'
+import learntogetherScreenshot from './assets/learntogetherScreenshot.png'
 import calculatorScreenshot from './assets/calculatorScreenshot2.png'
-import gpaCalculatorScreenshot from './assets/gpaCalculatorScreenshot.png'
+import mapAppScreenshot from './assets/mapAppScreenshot.jpeg'
 
 function Projects() {
     return(
@@ -11,7 +11,12 @@ function Projects() {
         <div className="projects" id="projects">
             <h2 className="subheading">Projects</h2>
             <div className="projectCards">
-                <Card img = {learntogertherScreenshot} name="LeanTogether iOS App" link="https://github.com/BridgetWu/LearnTogetherApp" 
+                <Card img = {mapAppScreenshot} name="STEM-E Map App" link="https://github.com/STEM-E-Youth-Career-Development-Program/map-app" 
+                                                    desc="A map-mobile app that tracks STEM events and makes it available to the 
+                                                    underprivileged youth. Developed with the interns using React.js and Node.js 
+                                                    for the STEM-E nonprofit organization."/>
+
+                <Card img = {learntogetherScreenshot} name="LeanTogether iOS App" link="https://github.com/BridgetWu/LearnTogetherApp" 
                                                     desc="An accessible English learning app 
                                                     designed for children, featuring a kid-friendly 
                                                     UI with audio prompts and visual cues. Built using 
@@ -24,10 +29,6 @@ function Projects() {
                 <Card img = {calculatorScreenshot} name="Calculator" link="https://github.com/BridgetWu/calculator" 
                                                     desc="A calculator I made using HTML, CSS, and Javascript. 
                                                     Includes functions like addition, subtraction, multiplication, and division."/>
-
-                <Card img = {gpaCalculatorScreenshot} name="GPA Calculator" link="https://github.com/BridgetWu/gpa-calculator" 
-                                                    desc="A GPA calculator built using Java for the AP CS Principles course. 
-                                                    Allows students to compute their overall GPA based on their input grades."/>
             </div>
         </div>
         </>
