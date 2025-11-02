@@ -1,12 +1,13 @@
 # Portfolio Website
 
 This is a website that showcases my experiences, projects, and skills. Built using React.js and vanilla CSS to display a dynamic and clean UI.
+Website link: https://bridgetwu.github.io/portfolio-website/
 
 ---
 
 ## 🚀 Features
 
-- **Responsive design for all screen sizes** — Upload structured data containing questions and answers. (2-3 hours)
+- **Responsive design for all screen sizes**
 - **Smooth scrolling**
 - **Clean layout**
 
