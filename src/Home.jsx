@@ -7,10 +7,10 @@ function Home() {
     return(
     <>
     <div className="about-me" id="home">
-        <img className='profile-pic' src={profilePic} alt='Profile Picture'></img>
-        <h1>Hi, I am <span className="name">Bridget!</span></h1>
-        <h2>A Full Stack Developer passionate about real-world impact.</h2>
-        <p className="profile-desc">I am a full stack software engineer and app developer, planning to pursue my Bachelor's
+        <img className='mt-[6.5rem] rounded-full border-2 border-white max-w-[30%] mb-[5%] h-auto mx-auto' src={profilePic} alt='Profile Picture'></img>
+        <h1 className='text-2xl font-bold'>Hi, I am <span className='text-[#48B3AF]'>Bridget!</span></h1>
+        <p className="text-lg">A Full Stack Developer passionate about real-world impact.</p>
+        <p className="profile-desc">I am a full stack software developer and app developer, planning to pursue my Bachelor's
              degree in Computer Science. I enjoy working across the entire development process—from 
              designing intuitive user interfaces to building and deploying 
              applications. I am passionate about transforming ideas into reliable, user-friendly software 

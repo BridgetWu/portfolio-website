@@ -1,4 +1,4 @@
-function Cardex(props) {
+function ExperienceCard(props) {
     return (
         <>
             <div className="experience-container">
@@ -9,4 +9,4 @@ function Cardex(props) {
     );
 }
 
-export default Cardex;
+export default ExperienceCard;

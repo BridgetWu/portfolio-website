@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
     background-color: hsl(0, 0%, 10%);
 }
@@ -37,10 +41,6 @@ body {
 .profile-desc {
     margin-bottom: 3.12rem;
     font-family: Tahoma, sans-serif;
-}
-
-.name {
-    color: #48B3AF;
 }
 
 .topnav a {
@@ -131,8 +131,8 @@ body {
 .projectCards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    max-width: 1000px;
+    gap: 4rem;
+    max-width: 65%;
     margin: 0 auto;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -164,21 +164,9 @@ body {
     object-fit: cover;
 }
 
-.card-content {
-    margin: 20px;
-}
-
 .card-text {
     color: hsl(0, 0%, 30%);
     font-size: 1em;
-}
-
-.subheading {
-    font-size: 2em;
-    color: #48B3AF;
-    text-align: center;
-    margin-bottom: 50px;
-    font-family: 'Roboto', sans-serif;
 }
 
 .skills {
@@ -251,17 +239,6 @@ body {
 .fa-github {
     background: #24292e;
     color: white;
-}
-
-.github-button {
-    background-color: #24292e;
-    color: white;
-    font-size: 1rem;
-    text-align: center;
-    padding: 0.625rem 1.563rem;
-    text-decoration: none;
-    border-radius: 0.625rem;
-    display: inline-block;
 }
 
 html {
